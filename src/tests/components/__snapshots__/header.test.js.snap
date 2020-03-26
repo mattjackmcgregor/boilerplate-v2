@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render header component 1`] = `
+<header
+  className="header"
+>
+  <div
+    className="content-container"
+  >
+    <div
+      className="header__content"
+    >
+      <Link
+        to="/dashboard"
+      >
+        <h1
+          className="header__title"
+        >
+          boilerplate
+        </h1>
+      </Link>
+      <button
+        className="button button--link"
+        onClick={[MockFunction]}
+      >
+        logout
+      </button>
+    </div>
+  </div>
+</header>
+`;
